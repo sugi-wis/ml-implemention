@@ -1,0 +1,15 @@
+
+set terminal png
+
+plot sin(x)
+set output "hoge.png"
+replot sin(x/$0)
+
+replot sin(x/$1)
+set output "hoge.png"
+
+replot sin(x/$2)
+replot sin(x/12)
+set output "hoge.png"
+
+

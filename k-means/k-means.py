@@ -1,4 +1,4 @@
-import cv2
+
 import numpy as np
 from numpy.random import *
 from PIL import Image
@@ -67,8 +67,8 @@ def ResetMeans():
 if __name__ == '__main__':
 	startTime = time.time()
 	 
-	K = 6
-	pointNum = 100
+	K = 10
+	pointNum = 200
 	ItrNum = 10
 
 	means = np.array([[rand(2)*100]for i in range(K)])
