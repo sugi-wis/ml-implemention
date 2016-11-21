@@ -4,4 +4,6 @@
     "sh":"/bin/bash",
     "py":"/usr/bin/python"
 }
+,
+"python.linting.pylintEnabled": false
 }

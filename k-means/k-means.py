@@ -76,7 +76,7 @@ if __name__ == '__main__':
     ItrNum = 10
 
     means = np.array([[rand(2) * 100] for i in range(K)])
-    #points = np.array([rand(pointNum,2)*100])
+    # points = np.array([rand(pointNum,2)*100])
     points = np.array([[[random() * 100, random() * 100], 0]
                        for i in range(pointNum)])  #p[0] = pos,p[1]=mData
 
