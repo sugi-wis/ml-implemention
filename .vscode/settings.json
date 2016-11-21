@@ -2,7 +2,8 @@
 {
 "runner.extensionMap": {
     "sh":"/bin/bash",
-    "py":"/usr/bin/python"
+    "py":"/usr/bin/python",
+    "cpp":"/bin/bash ./cpp-exe.sh"
 }
 ,
 "python.linting.pylintEnabled": false

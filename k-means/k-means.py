@@ -3,7 +3,6 @@ from numpy.random import *
 from PIL import Image
 import matplotlib.pyplot as plt
 import time
-
 """
 imgMat = Image.open('kuroneko400.png')
 imgCv = cv2.imread("kuroneko400.png")

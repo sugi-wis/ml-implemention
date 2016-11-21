@@ -104,7 +104,7 @@ void CalcMeansData(std::vector<Point> &p,std::vector<Mean> &m)
 			if(minDtc < 0 || minDtc > dtc)
 			{minDtc = dtc;minMeanNum = k;}
 		}
-		p[i].mData = minMeanNum;
+		  p[i].mData = minMeanNum;
 	}
 }
 
