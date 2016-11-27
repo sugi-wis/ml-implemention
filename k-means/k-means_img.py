@@ -43,7 +43,7 @@ def ResetMeans():
 if __name__ == '__main__':
     startTime = time.time()
 
-    pilImg = Image.open('../img/kuroneko256.png')
+    pilImg = Image.open('img/kuroneko256.png')
     imgArr = np.asarray(pilImg)
     imgSize = np.array(imgArr.shape)[0:2]
 
